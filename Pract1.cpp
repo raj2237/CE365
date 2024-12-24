@@ -15,11 +15,11 @@ int main()
 
     if (i + 1 < strlen(Str) && Str[i] == 'b' && Str[i + 1] == 'b' && i + 2 == strlen(Str))
     {
-        printf("Valid Hai bhai\n");
+        printf("Valid\n");
     }
     else
     {
-        printf("Rene de vro\n");
+        printf("Invalid\n");
     }
 
     return 0;
